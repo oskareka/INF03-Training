@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Maj 09, 2024 at 04:55 PM
+-- Generation Time: Aug 10, 2026 at 08:38 PM
 -- Wersja serwera: 10.4.32-MariaDB
--- Wersja PHP: 8.2.12
+-- Wersja PHP: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
