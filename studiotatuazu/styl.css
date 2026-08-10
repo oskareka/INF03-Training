@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('DancingScript-Regular.woff2') format('woff2'),
+        url('DancingScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+#sekcja-glowna {
+    display: flex;
+}
+
+
+
+
+body {
+    font-family: 'Dancing Script', 'serif';
+    font-size: 120%;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+aside {
+    background-color: rosybrown;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+#blokboczny {
+    text-align: left;
+    height: 350px;
+}
+
+#bloknaglowkowy2 {
+    background-color: rosybrown;
+
+    height: 100px;
+}
+
+#bloksekcji {
+
+    height: 550px;
+    overflow: scroll;
+}
+
+label {
+    line-height: 50px;
+}
+
+.miniatury {
+    width: 150px;
+    transition: width 1s;
+}
+
+.miniatury:hover {
+    background-color: bisque;
+    width: 200px;
+}

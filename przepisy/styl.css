@@ -1,0 +1,55 @@
+* {
+    font-family: Garamond;
+    text-align: center;
+}
+main {
+    display: flex;
+}
+#blokboczny {
+    width: 10%;
+    background-color: #3A3C3E;
+    color: white;
+    height: 600px;
+}
+#blokglowny {
+    width: 45%;
+    height: 600px;
+    overflow: auto;
+}
+#bloksekcji {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    width: 45%;
+    height: 600px;
+
+
+}
+h1 {
+    background-color: RGB(211 211 211 /0.3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 2em;
+
+}
+h2 {
+    font-size: 2em;
+    font-variant: small-caps;
+}
+ul {
+    text-align: left;
+}
+li {
+    text-align: left;
+}
+a {
+    color: gainsboro;
+    font-size: 120%;
+    font-style: italic;
+}
+a:hover {
+    color: white;
+}
