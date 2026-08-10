@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Cze 03, 2024 at 10:52 AM
+-- Generation Time: Aug 10, 2026 at 08:38 PM
 -- Wersja serwera: 10.4.32-MariaDB
--- Wersja PHP: 8.2.12
+-- Wersja PHP: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -69,16 +69,16 @@ INSERT INTO `tatuaze` (`id`, `style_id`, `wzor`, `plik`, `kolor`, `cena`) VALUES
 (3, 4, 'waz', 'waz.png', 'zielony', 60),
 (4, 1, 'tygrys', 'tygrys.png', 'czarny', 100),
 (5, 1, 'tygrys', 'tygrys.png', 'złoty', 110),
-(6, 6, 'smok', 'smok.png', 'czerwony', 150),
+(6, 6, 'smok', 'smok.png', 'czerwony', 165),
 (7, 6, 'smok', 'smok.png', 'zielony', 150),
 (8, 5, 'rozeta', 'rozeta.png', 'czarny', 50),
-(9, 5, 'rozeta', 'rozeta.png', 'czerwony', 60),
+(9, 5, 'rozeta', 'rozeta.png', 'czerwony', 66),
 (10, 5, 'rozeta', 'rozeta.png', 'niebieski', 60),
-(11, 3, 'kwiaty', 'kwiaty.png', 'czerwony', 40),
+(11, 3, 'kwiaty', 'kwiaty.png', 'czerwony', 44),
 (12, 3, 'kwiaty', 'kwiaty.png', 'niebieski', 40),
 (13, 3, 'kwiaty', 'kwiaty.png', 'zółty', 40),
 (14, 6, 'kwiat', 'kwiat.png', 'czarny', 130),
-(15, 6, 'kwiat', 'kwiat.png', 'czerwony', 140),
+(15, 6, 'kwiat', 'kwiat.png', 'czerwony', 154),
 (16, 6, 'kwiat', 'kwiat.png', 'zielony', 140),
 (17, 2, 'koliber', 'koliber.png', 'czarny', 200),
 (18, 2, 'koliber', 'koliber.png', 'wielokolorowy', 250),
