@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pola figur</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    
+    <header><h2>Pola figur płaskich</h2></header>
+
+    <main>
+        <nav>
+            <h3>MENU</h3>
+            <ul>
+                <a href="index.html"><li>Prostokat i trójkąt</li></a>
+                <a href="kolo.html"><li>Okrąg i koło</li></a>
+            </ul>
+        </nav>
+        
+        <section>
+            <img id="obraz_do_zmiany" src="1d.bmp" alt="Figura">
+
+            <img id="1m" class="skrypt1" src="1m.bmp" alt="Wybierz trójkąt"> <img id="2m" class="skrypt1" src="2m.bmp" alt="Wybierz prostokąt">
+
+        </section>
+
+        <aside>
+            <h3>Pole prostokąta / pole trójkąta</h3>
+            <form>
+                <label for="podstawa">Bok prostokąta / podstawa trójkąta: </label><br>
+                <input type="number" id="podstawa" name="podstawa"><br>
+
+                <label for="drugibok">Drugi bok prostokąta / wysokość trójkąta: </label><br>
+                <input type="number" id="drugibok" name="drugibok"><br>
+                <button type="button" onclick="skrypt2()">Oblicz</button>
+                <p id="wynik"></p>
+            </form>
+        </aside>
+    </main>
+
+    <footer>Autor: Oskar</footer>
+
+
+
+
+<script>
+let coliczymy = "poletrojkata";
+
+function skrypt1() {
+    let trojkat = document.getElementById("1m");
+    let prostokat = document.getElementById("2m");
+    let obrazek = document.getElementById("obraz_do_zmiany");
+
+    trojkat.addEventListener("click", function() {
+        obrazek.src = "1d.bmp";
+        coliczymy = "poletrojkata";
+    });
+
+    prostokat.addEventListener("click", function() {
+        obrazek.src = "2d.bmp";
+        coliczymy = "poleprostokata";
+    });
+}
+
+skrypt1();
+
+
+function skrypt2() {
+    let paragraf = document.getElementById("wynik");
+
+    let podstawa = Number(document.getElementById("podstawa").value);
+    let drugibok = Number(document.getElementById("drugibok").value);
+
+    if (coliczymy == "poletrojkata") {
+        let wynik = 0.5 * podstawa * drugibok;
+        paragraf.textContent = wynik;
+    } 
+    else if (coliczymy == "poleprostokata") {
+        let wynik = podstawa * drugibok;
+        paragraf.textContent = wynik;
+    }
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
