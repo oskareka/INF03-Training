@@ -1,0 +1,56 @@
+body {
+    font-family: Georgia;
+    text-align: center;
+}
+
+#headery {
+    display: flex;
+    flex-direction: row;
+}
+header {
+    background-color: #388E3C;
+    color: white;
+    height: 100px;
+}
+#bloknaglowkowy1 {
+    width: 20%;
+}
+#bloknaglowkowy2 {
+    width: 80%;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+section {
+    background-color: #DCE775;
+    width: 50%;
+    height: 600px;
+}
+footer {
+    background-color: #388E3C;
+    color: white;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border: dashed 2px #388E3C
+}
+table img {
+    height: 70px;
+}
+a {
+    color: #388E3C;
+    margin: 20px;
+    font-style: italic;
+    font-size: 200%;
+}
+p {
+    margin: 0px;
+}
+
+a:hover {
+    background-color: #388E3C;
+    color: #DCE775;
+}
