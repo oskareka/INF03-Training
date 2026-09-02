@@ -1,0 +1,13 @@
+Kwerendy
+
+#Zapytanie 1: wybierające jedynie nazwy chorób zakaźnych, posortowane rosnąco według nazwy 
+SELECT nazwa from choroby where zakazna = "T" GROUP BY nazwa;
+
+#Zapytanie 2: wybierające jedynie identyfikatory i nazwy dla wszystkich chorób 
+SELECT id, nazwa FROM choroby;
+
+#Zapytanie 3: wybierające jedynie nazwy objawów dla choroby o id 5. Należy posłużyć się relacją 
+SELECT objawy.nazwa FROM objawy JOIN choroby_objawy ON id_objawy = objawy.id JOIN choroby ON choroby.id = choroby_objawy.id_choroby WHERE choroby.id = 5;
+
+#Zapytanie 4: wybierające jedynie nazwy chorób oraz wyliczoną dla nich liczbę objawów zgrupowane dla każdej choroby zakaźnej. Należy posłużyć się relacją n..m. 
+SELECT c.nazwa, COUNT(co.id_objawy) AS liczba_objawow FROM choroby c JOIN choroby_objawy co ON c.id = co.id_choroby WHERE c.zakazna = 'T' GROUP BY c.id, c.nazwa;
