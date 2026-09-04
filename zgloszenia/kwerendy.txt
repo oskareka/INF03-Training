@@ -1,0 +1,1 @@
+#Zapytanie 1: wybierające jedynie identyfikatory, imiona i nazwiska tych osób spośród personelu, których status to policjant SELECT id, imie, nazwisko FROM personel WHERE status = "Policjant";
