@@ -9,4 +9,6 @@ Arkusze: <br>
 [Rozwiązanie INF.03 : 2026 - styczeń - zad. 07 (php)](pogoda/) | [Arkusz](https://egzamin-informatyk.pl/arkusz-praktyczny-inf03-2026-01-07/) <br>
 [Rozwiązanie INF.03 : 2026 - styczeń - zad. 06 (php)](choroby/) | [Arkusz](https://egzamin-informatyk.pl/arkusz-praktyczny-inf03-2026-01-06/) <br>
 [Rozwiązanie INF.03 : 2026 - styczeń - zad. 05 (php)](zgloszenia/) | [Arkusz](https://egzamin-informatyk.pl/arkusz-praktyczny-inf03-2026-01-05/) - Kogoś nieźle pokręciło z tym arkuszem<br>
+[Rozwiązanie INF.03 : 2026 - styczeń - zad. 04 (php)](matura/) | [Arkusz](https://egzamin-informatyk.pl/arkusz-praktyczny-inf03-2026-01-04/)<br>
+
 [Rozwiązanie INF.03 : 2026 - styczeń - zad. 03 (js)](kolo/) | [Arkusz](https://egzamin-informatyk.pl/arkusz-praktyczny-inf03-2026-01-03/) <br>
